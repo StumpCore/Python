@@ -15,3 +15,8 @@ t2 =threading.Thread(target = function2)
 t1.start()
 t2.start()
 
+t1.join()
+t2.join()
+
+print("Finished.")
+
